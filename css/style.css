@@ -1,0 +1,11 @@
+header {font-family: 'Georgia', Times, Times New Roman, serif;
+        background:#4aaaa5;
+        color: #ffffff;
+        border-color: #cccccc;
+        margin: 0;
+        padding: 80px;
+        width: 10%;}
+
+a {float: right;}
+
+footer {background:#666666}
