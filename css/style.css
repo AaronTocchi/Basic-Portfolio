@@ -1,7 +1,10 @@
 
-.container {}
-
-body{width: 960px;
+.container {width: 600px;
+            padding:360px;
+            border-left: honeydew;
+            background-image: image("images/beanstalk.png")
+}
+body{
     margin:0;
 }
 
@@ -12,10 +15,14 @@ header {font-family: 'Georgia', Times, Times New Roman, serif;
         margin: 0;
         padding: 40px;
         width: 20%;
-        margin-left: 33.3%}
+        }
 
 a {font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
    float: right;}
 
 footer {border-top: 8px solid #4aaaa5;
-        background:#666666;}
+        background:#666666;
+        text-align: center}
+
+        #profilepic{ width: 130px;
+                     height: 200px;}
