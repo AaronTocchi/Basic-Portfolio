@@ -6,13 +6,9 @@
 body {
     margin:0;
     background-image:url("../images/beanstalk.png");
-}
-
-header{
-    
     
 }
-
+/* header */
 .logo {
         font-family: 'Georgia', Times, Times New Roman, serif;
         background:#4aaaa5;
@@ -20,50 +16,45 @@ header{
         border-color: #cccccc;
         padding: 40px;
         width: 20%;
+        margin: 2%;
+        float: left;
         
 }
-
+/* Nav bar  */
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    display: inline; 
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    
-   
+    display: inline;
 }
 
 li{
-    bottom: 0;
-    right: 0;
+    bottom: 0%;
+    right: 0%;
     float: right;
 }
-
+/* content */
 .container {
             width: 960px;
+            padding: 10px;
             margin: 20px;
             border-left: honeydew; 
             background: #ffffff;
-            
-            
+            clear: both;           
 }         
+
 h1 {
     font-family: 'Georgia', Times, Times New Roman, serif;
     background: #ffffff;
     color: #4aaaa5
 
 }
+/*about page paragraph  */
 #bio {
     display: inline block;
     vertical-align: top;
     
-}
-
-footer {
-    border-top: 8px solid #4aaaa5;
-    background:#666666;
-    text-align: center;
-        
 }
 
 #profilepic { 
@@ -71,3 +62,13 @@ footer {
     height: 200px;
     display: inline block
 }
+footer {
+    border-top: 8px solid #4aaaa5;
+    background:#666666;
+    text-align: center;
+    bottom: 0%;
+    position: fixed;
+    width: 100%;
+        
+}
+
